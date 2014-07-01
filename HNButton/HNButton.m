@@ -353,12 +353,14 @@ typedef void (^HNCompletionHandler)(BOOL success);
     
     if(selected && _endStateSelected)
     {
-        [self removeIndy];
+//        [self removeIndy];
+        [self disableButtonIndicator];
     }
     else
     {
-        [self addIndicator];
-        [self commonInit];
+        [self enableButtonIndicator];
+//        [self addIndicator];
+//        [self commonInit];
     }
 }
 
