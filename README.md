@@ -15,8 +15,6 @@ Drop-in for UIButton. Was using a basic version of this for network requests, ex
 * Buttons can be created created programmatically with any *UIButtonType*
 
 ```
-#!objective-c
-
     HNButton* button = [HNButton buttonWithType:UIButtonType];
 ```
 
@@ -29,8 +27,6 @@ Drop-in for UIButton. Was using a basic version of this for network requests, ex
 
 * **Required:** To stop animating indicatorView
 ```
-#!objective-c
-
     //Revert to original
     [button finishLoading];
 
@@ -45,8 +41,6 @@ Drop-in for UIButton. Was using a basic version of this for network requests, ex
 * *Optional:* To discontinue indicatorView for future clicks
 
 ```
-#!objective-c
-
     //Disables the indicator
     [button disableButtonIndicator];
     //Call enableButtonIndicator to use indicator again
