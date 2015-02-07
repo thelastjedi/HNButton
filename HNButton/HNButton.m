@@ -229,7 +229,7 @@ typedef void (^HNCompletionHandler)(BOOL success);
     
     if(([self designQuery]|HNButton_TextColourImage)==1)
     {
-        const float* rgbOfColor = CGColorGetComponents(buttonColor.CGColor);
+        const double* rgbOfColor = CGColorGetComponents(buttonColor.CGColor);
         [self setBackgroundColor:[UIColor colorWithRed:rgbOfColor[0] green:rgbOfColor[1] blue:rgbOfColor[2] alpha:0.5]];
     }
     else if([self designQuery] > HNButton_OnlyText){
