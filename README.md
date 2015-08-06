@@ -61,7 +61,3 @@ Resources and code are free to use.
 ## Future Versions ##
 
 More options for transition state.
-
-## Say Hello ##
-
-@[Twitter](http://twitter.com/harshi89)
